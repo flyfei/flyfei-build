@@ -1,0 +1,51 @@
+<style media="screen">
+  @keyframes intro {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .powered-by {
+    color: rgba(95, 95, 95, 0.78);
+  }
+  main, footer {
+    animation: intro 0.3s both;
+    animation-delay: 0.15s;
+  }
+  /* hack.css overrides and enhancements */
+  .main {
+    padding: 20px 10px;
+  }
+  .dark, .dark pre {
+      background-color: #f2f0ec;
+      color: #2d2d2d;
+  }
+  .dark h1 a, .dark h2 a, .dark h3 a, .dark h4 a, .dark h5 a {
+      color: #6699cc;
+  }
+  nav a.active {
+    background-color: #6699cc;
+    color: #fff;
+  }
+  a {
+      border-bottom: 1px solid #6699cc;
+      color: #6699cc;
+  }
+  a:hover {
+      color: #fff;
+      background-color: #6699cc;
+  }
+  html {
+    font-size: 13px;
+  }
+  @media screen and (min-width: 768px) {
+    html {
+      font-size: 1em;
+    }
+    .container {
+      max-width: 50rem;
+    }
+  }
+</style>
