@@ -1,34 +1,8 @@
-baseurl = "http://tovizhao.com/"
-# baseurl = "http://localhost:8000/"
-title = "Tovi"
+baseurl = "http://tovizhao.com"
+title = "My New Hugo Site"
 languageCode = "en-us"
 
-
-paginate = 5 # Number of posts to show before paginating
-
-enableRobotsTXT = true # Suggested, enable robots.txt file
-googleAnalytics = "" # Optional, add tracking Id for analytics
-SectionPagesMenu = "main" # Enable menu system for lazy bloggers
+theme = "hyde"
 
 [params]
-  description = "" # Suggested, controls homepage description meta
-  author = "" # Optional, controls author name display on posts
-  show_menu = false # Optional, set false to disable menu entirely
-  powered_by = false # Optional, set false to disable theme credits
-
-  [params.seo]
-    google_verify = "" # Optional, Google verification code
-    bing_verify = "" # Optional, Bing verification code
-    yandex_verify = "" # Optional, Yandex verification code
-
-[menu]
-  [[menu.main]]
-    name = "Home"
-    weight = 0
-    identifier = "home"
-    url = "/"
-  [[menu.main]]
-    name = "Posts"
-    weight = 1
-    identifier = "post"
-    url = "/post/"
+  themeColor = "theme-base-0c"
