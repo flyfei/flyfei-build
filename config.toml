@@ -1,8 +1,9 @@
 baseurl = "http://tovizhao.com/"
-title = "My New Hugo Site"
+title = "Tovi"
 languageCode = "en-us"
 
 theme = "hyde"
 
 [params]
   themeColor = "theme-base-0c"
+  # description = "aaaaaa" #侧边菜单描述
